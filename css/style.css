@@ -591,6 +591,56 @@ body {
 .back-top:active { transform: scale(.9); }
 .back-top.show { display: flex; }
 
+/* ===== Card Tags & Price Info ===== */
+.category-tag {
+  display: inline-block;
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  margin-right: 6px;
+}
+.tag.temp-tag {
+  display: inline-block;
+  background: var(--success-light);
+  color: var(--success);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+.price-info {
+  background: var(--accent-light);
+  color: var(--warning);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.scenario-item {
+  background: var(--gray-50);
+  border-left: 3px solid var(--warning);
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+.scenario-item .scenario-q {
+  color: var(--danger);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.scenario-item .scenario-a {
+  color: var(--gray-700);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
 /* ===== No Results ===== */
 .no-results {
   text-align: center;
